@@ -10,7 +10,7 @@ package lldb
 import (
 	"fmt"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/cznic/mathutil"
+	"Godeps/_workspace/src/github.com/cznic/mathutil"
 )
 
 func doubleTrouble(first, second error) error {

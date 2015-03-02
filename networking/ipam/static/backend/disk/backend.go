@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"pkg/lock"
+	lock "pkg/lock"
 )
 
 var defaultDataDir = "/var/lib/rkt/networks"

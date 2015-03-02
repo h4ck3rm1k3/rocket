@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/pkg/tarheader"
+	"Godeps/_workspace/src/github.com/appc/spec/pkg/tarheader"
 )
 
 // BuildWalker creates a filepath.WalkFunc that walks over the given root

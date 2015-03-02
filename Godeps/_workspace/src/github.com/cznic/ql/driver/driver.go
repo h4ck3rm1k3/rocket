@@ -53,7 +53,7 @@ Referenced from above:
 */
 package driver
 
-import "github.com/coreos/rocket/Godeps/_workspace/src/github.com/cznic/ql"
+import "Godeps/_workspace/src/github.com/cznic/ql"
 
 func init() {
 	ql.RegisterDriver()

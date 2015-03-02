@@ -25,7 +25,7 @@ import (
 	"syscall"
 	"time"
 
-	"pkg/lock"
+	lock "pkg/lock"
 )
 
 type container struct {

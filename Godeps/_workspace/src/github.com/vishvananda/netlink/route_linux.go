@@ -5,7 +5,7 @@ import (
 	"net"
 	"syscall"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/vishvananda/netlink/nl"
+	"Godeps/_workspace/src/github.com/vishvananda/netlink/nl"
 )
 
 // RtAttr is shared so it is in netlink_linux.go

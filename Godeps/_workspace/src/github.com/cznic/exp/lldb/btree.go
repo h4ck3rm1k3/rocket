@@ -12,9 +12,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/cznic/bufs"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/cznic/fileutil"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/cznic/sortutil"
+	"Godeps/_workspace/src/github.com/cznic/bufs"
+	"Godeps/_workspace/src/github.com/cznic/fileutil"
+	"Godeps/_workspace/src/github.com/cznic/sortutil"
 )
 
 const (

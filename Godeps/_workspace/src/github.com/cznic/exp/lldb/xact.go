@@ -55,8 +55,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/cznic/fileutil"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/cznic/mathutil"
+	"Godeps/_workspace/src/github.com/cznic/fileutil"
+	"Godeps/_workspace/src/github.com/cznic/mathutil"
 )
 
 var (

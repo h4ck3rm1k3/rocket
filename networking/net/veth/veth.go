@@ -20,9 +20,9 @@ import (
 	"os"
 	"runtime"
 
-	"Godeps/_workspace/src/github.com/vishvananda/netlink"
+	netlink "Godeps/_workspace/src/github.com/vishvananda/netlink"
 
-	"networking/ipam"
+	ipam "networking/ipam"
 	rktnet "networking/net"
 	"networking/util"
 )

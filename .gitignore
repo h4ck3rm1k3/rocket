@@ -3,3 +3,13 @@ gopath/
 *.sw[ponm]
 .DS_Store
 .vagrant
+/test.go
+/test.go~
+/#todo.txt#
+/.#todo.txt
+/Godeps/_workspace/src/code.google.com/p/go-uuid/uuid.o
+/Godeps/_workspace/src/github.com/appc/docker2aci/lib.o
+/Godeps/_workspace/src/github.com/appc/docker2aci/tarball.o
+/Godeps/_workspace/src/github.com/appc/spec/aci.o
+/Godeps/_workspace/src/github.com/appc/spec/actool.o
+/Godeps/_workspace/src/github.com/appc/spec/discovery.o

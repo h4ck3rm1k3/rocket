@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"pkg/lock"
+	lock "pkg/lock"
 
 	_ "Godeps/_workspace/src/github.com/cznic/ql/driver"
 )

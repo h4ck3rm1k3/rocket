@@ -16,10 +16,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/docker2aci/tarball"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/aci"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema/types"
+	"Godeps/_workspace/src/github.com/appc/docker2aci/tarball"
+	"Godeps/_workspace/src/github.com/appc/spec/aci"
+	"Godeps/_workspace/src/github.com/appc/spec/schema"
+	"Godeps/_workspace/src/github.com/appc/spec/schema/types"
 )
 
 const (

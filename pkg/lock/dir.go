@@ -14,7 +14,7 @@
 
 // Package lock implements simple locking primitives on a
 // directory using flock
-package lock
+package rktlock
 
 import (
 	"errors"

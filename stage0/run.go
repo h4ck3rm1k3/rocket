@@ -42,7 +42,7 @@ import (
 	"Godeps/_workspace/src/github.com/appc/spec/schema/types"
 	"cas"
 	"common"
-	"pkg/lock"
+	lock "pkg/lock"
 	ptar "pkg/tar"
 	"version"
 )

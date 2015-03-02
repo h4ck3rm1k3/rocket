@@ -8,7 +8,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/cznic/mathutil"
+	"Godeps/_workspace/src/github.com/cznic/mathutil"
 )
 
 var _ Filer = (*OSFiler)(nil)

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net"
 
-	"networking/ipam"
+	ipam "networking/ipam"
 	"networking/ipam/static/backend"
-	"networking/util"
+	util "networking/util"
 )
 
 type IPAllocator struct {

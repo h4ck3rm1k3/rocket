@@ -14,9 +14,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/cznic/bufs"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/cznic/mathutil"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/cznic/zappy"
+	"Godeps/_workspace/src/github.com/cznic/bufs"
+	"Godeps/_workspace/src/github.com/cznic/mathutil"
+	"Godeps/_workspace/src/github.com/cznic/zappy"
 )
 
 const (

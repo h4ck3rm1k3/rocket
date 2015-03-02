@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/camlistore/lock"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/cznic/exp/lldb"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/cznic/mathutil"
+	camlock "Godeps/_workspace/src/github.com/camlistore/lock"
+	"Godeps/_workspace/src/github.com/cznic/exp/lldb"
+	"Godeps/_workspace/src/github.com/cznic/mathutil"
 )
 
 const (
@@ -389,7 +389,7 @@ type file struct {
 
 func newFileFromOSFile(f lldb.OSFile) (fi *file, err error) {
 	nm := lockName(f.Name())
-	lck, err := lock.Lock(nm)
+	lck, err := camlock.Lock(nm)
 	if err != nil {
 		if lck != nil {
 			lck.Close()
