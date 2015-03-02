@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/coreos/rocket/pkg/lock"
+	"pkg/lock"
 )
 
 var defaultDataDir = "/var/lib/rkt/networks"

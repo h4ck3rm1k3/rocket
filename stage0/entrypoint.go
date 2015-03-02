@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema"
-	"github.com/coreos/rocket/common"
+	"Godeps/_workspace/src/github.com/appc/spec/schema"
+	"common"
 )
 
 const (

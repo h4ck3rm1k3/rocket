@@ -15,8 +15,8 @@
 package main
 
 import (
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema"
-	"github.com/coreos/rocket/version"
+	"Godeps/_workspace/src/github.com/appc/spec/schema"
+	"version"
 )
 
 var cmdVersion = &Command{

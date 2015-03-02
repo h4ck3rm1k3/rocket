@@ -22,7 +22,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/coreos/rocket/common"
+	"common"
 )
 
 func registerContainer(c *Container, ip net.IP) error {

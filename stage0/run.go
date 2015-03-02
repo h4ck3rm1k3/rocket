@@ -37,14 +37,14 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/code.google.com/p/go-uuid/uuid"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema/types"
-	"github.com/coreos/rocket/cas"
-	"github.com/coreos/rocket/common"
-	"github.com/coreos/rocket/pkg/lock"
-	ptar "github.com/coreos/rocket/pkg/tar"
-	"github.com/coreos/rocket/version"
+	"Godeps/_workspace/src/code.google.com/p/go-uuid/uuid"
+	"Godeps/_workspace/src/github.com/appc/spec/schema"
+	"Godeps/_workspace/src/github.com/appc/spec/schema/types"
+	"cas"
+	"common"
+	"pkg/lock"
+	ptar "pkg/tar"
+	"version"
 )
 
 const (

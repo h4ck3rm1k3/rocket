@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // Package aci implements helper functions for working with ACIs
-package aci
+package aci2
 
 import (
 	"archive/tar"

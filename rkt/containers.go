@@ -25,7 +25,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/coreos/rocket/pkg/lock"
+	"pkg/lock"
 )
 
 type container struct {

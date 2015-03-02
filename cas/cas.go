@@ -28,10 +28,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/aci"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema"
+	"Godeps/_workspace/src/github.com/appc/spec/aci"
+	"Godeps/_workspace/src/github.com/appc/spec/schema"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/peterbourgon/diskv"
+	"Godeps/_workspace/src/github.com/peterbourgon/diskv"
 )
 
 // TODO(philips): use a database for the secondary indexes like remoteType and

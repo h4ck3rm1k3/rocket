@@ -24,8 +24,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/coreos/rocket/common"
-	rktnet "github.com/coreos/rocket/networking/net"
+	"common"
+	rktnet "networking/net"
 )
 
 // TODO(eyakubovich): make this configurable in rkt.conf

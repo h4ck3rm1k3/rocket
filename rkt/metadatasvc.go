@@ -30,10 +30,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema/types"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/gorilla/mux"
-	"github.com/coreos/rocket/common"
+	"Godeps/_workspace/src/github.com/appc/spec/schema"
+	"Godeps/_workspace/src/github.com/appc/spec/schema/types"
+	"Godeps/_workspace/src/github.com/gorilla/mux"
+	"common"
 )
 
 var (

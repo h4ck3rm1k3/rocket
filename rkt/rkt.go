@@ -23,7 +23,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/coreos/rocket/pkg/keystore"
+	"pkg/keystore"
 )
 
 const (

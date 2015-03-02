@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema/types"
-	"github.com/coreos/rocket/common"
+	"Godeps/_workspace/src/github.com/appc/spec/schema/types"
+	"common"
 )
 
 // Enter enters the container by exec()ing the stage1's /enter similar to /init

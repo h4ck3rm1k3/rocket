@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/aci"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema/types"
+	"Godeps/_workspace/src/github.com/appc/spec/aci"
+	"Godeps/_workspace/src/github.com/appc/spec/schema/types"
 )
 
 const (

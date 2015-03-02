@@ -21,11 +21,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/coreos/rocket/cas"
-	"github.com/coreos/rocket/pkg/keystore"
+	"cas"
+	"pkg/keystore"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/discovery"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema/types"
+	"Godeps/_workspace/src/github.com/appc/spec/discovery"
+	"Godeps/_workspace/src/github.com/appc/spec/schema/types"
 )
 
 const (

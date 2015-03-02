@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/coreos/rocket/networking/ipam"
-	"github.com/coreos/rocket/networking/ipam/static/backend"
-	"github.com/coreos/rocket/networking/util"
+	"networking/ipam"
+	"networking/ipam/static/backend"
+	"networking/util"
 )
 
 type IPAllocator struct {

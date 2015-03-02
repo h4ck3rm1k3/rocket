@@ -113,6 +113,10 @@ func RegisterDriver() {
 func RegisterMemDriver() {
 	memDriverOnce.Do(func() { sql.Register("ql-mem", memDriver) })
 }
+func OpenMem() (db *DB, err error) {
+	// TOSO
+	return
+}
 
 type driverDB struct {
 	db       *DB

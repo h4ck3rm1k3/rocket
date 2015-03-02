@@ -28,13 +28,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/rocket/pkg/keystore"
+	"pkg/keystore"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/docker2aci/lib"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/aci"
+	"Godeps/_workspace/src/github.com/appc/docker2aci/lib"
+	"Godeps/_workspace/src/github.com/appc/spec/aci"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/mitchellh/ioprogress"
-	"github.com/coreos/rocket/Godeps/_workspace/src/golang.org/x/crypto/openpgp"
+	"Godeps/_workspace/src/github.com/mitchellh/ioprogress"
+	"Godeps/_workspace/src/golang.org/x/crypto/openpgp"
 )
 
 func NewRemote(aciurl, sigurl string) *Remote {

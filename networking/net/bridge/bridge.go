@@ -21,12 +21,12 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema/types"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/vishvananda/netlink"
+	"Godeps/_workspace/src/github.com/appc/spec/schema/types"
+	"Godeps/_workspace/src/github.com/vishvananda/netlink"
 
-	"github.com/coreos/rocket/networking/ipam"
-	rktnet "github.com/coreos/rocket/networking/net"
-	"github.com/coreos/rocket/networking/util"
+	"networking/ipam"
+	rktnet "networking/net"
+	"networking/util"
 )
 
 const defaultBrName = "rkt0"

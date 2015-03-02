@@ -12,7 +12,7 @@ import (
 
 	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/vishvananda/netlink"
 
-	"github.com/coreos/rocket/networking/util"
+	"networking/util"
 )
 
 // L3 config value for interface

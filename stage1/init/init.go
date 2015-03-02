@@ -28,8 +28,8 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/coreos/rocket/common"
-	"github.com/coreos/rocket/networking"
+	"common"
+	"networking"
 )
 
 const (

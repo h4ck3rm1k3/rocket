@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema"
-	common "github.com/coreos/rocket/common"
+	"Godeps/_workspace/src/github.com/appc/spec/schema"
+	common "common"
 )
 
 var (

@@ -23,10 +23,10 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema"
-	"github.com/coreos/rocket/Godeps/_workspace/src/github.com/appc/spec/schema/types"
-	"github.com/coreos/rocket/common"
-	"github.com/coreos/rocket/stage0"
+	"Godeps/_workspace/src/github.com/appc/spec/schema"
+	"Godeps/_workspace/src/github.com/appc/spec/schema/types"
+	"common"
+	"stage0"
 )
 
 var (
