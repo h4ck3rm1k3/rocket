@@ -1,3 +1,12 @@
+# GCCGo Rocket : an experimental port
+this is an experimental port of rocket to gccgo.
+see the Makefile.
+try make rkt6.
+testing on gccgo 4.9.2-10 on debian unstable.
+
+see also https://groups.google.com/d/msg/rocket-dev/J1EmcYmQR2E/qajlX2JAoG4J
+for a list of known issues.
+
 # Rocket - App Container runtime
 
 [![Build Status](https://travis-ci.org/coreos/rocket.png?branch=master)](https://travis-ci.org/coreos/rocket)
